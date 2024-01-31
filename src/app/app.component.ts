@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-frontend';
+  title = 'Angualr 17 Spring Boot CRUD Full stack APP';
+  today = new Date().getFullYear()
 }
